@@ -1,0 +1,31 @@
+- we will make an AI that determines whether a tumor is malignant or benign
+
+- I used Pandas which is a Python library used for working with data sets.  (x and y)
+  It has functions for analyzing, cleaning, exploring, and manipulating data. 
+  The name "Pandas" has a reference to both "Panel Data", and "Python Data Analysis"
+  and was created by Wes McKinney in 2008.
+
+- Shift + Enter to run a cell
+
+- drop means that we are removing a column
+
+- Determine x and y
+
+- Split data into training set and data set
+
+- Scikit-learn or sklearn? Scikit-learn is probably the most useful library for machine learning in Python.  (Training set + Data Set)
+  The sklearn library contains a lot of efficient tools for machine learning and statistical modeling including classification, 
+  regression, clustering and dimensionality reduction.
+
+- Keras is the high-level API of the TensorFlow platform. 
+  It provides an approachable, highly-productive interface for solving machine learning (ML) problems, with a focus on modern deep learning. 
+  Keras covers every step of the machine learning workflow, from data processing to hyperparameter tuning to deployment.
+
+- We are building a neural network
+
+- Build and train the model
+
+- Dense is the standard vanilla default neurons you get in Keras
+
+- Activation function Sigmoid is a function f(x)=1/1+e^-βx we take all the values from the neural network and plot them between 0 and 1 to reduce model complexity and makes it more accurate. We have 2 layers in this case then the output layer. The diagnosis will be between 0 and 1 hence 1 dense.
+
